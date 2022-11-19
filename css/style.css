@@ -14,10 +14,24 @@
 }
 
 .navbar {
+  width: auto;
   border-bottom: solid 1px black;
+  display: flex;
+  font-size: 16pt;
 }
-.navbar .nav-link {
+.navbar li {
+  margin: 20px;
+}
+.navbar .not-select {
   color: black;
+  border-radius: 10% 10% 10% 10%;
+  transition: 0.5s;
+}
+.navbar .not-select:hover {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black;
 }
 
 .container00 {
@@ -120,6 +134,20 @@
 .rodape .contato {
   display: flex;
   justify-content: center;
+}
+
+.page-selec {
+  background-color: black;
+  color: white;
+  border-radius: 10% 10% 10% 10%;
+}
+.page-selec span {
+  color: white;
+}
+
+.footer-black {
+  background-color: black;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
