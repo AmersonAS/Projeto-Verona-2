@@ -1,0 +1,127 @@
+.logo-title {
+  background-color: black;
+  width: 100%;
+  height: 20%;
+
+  .name-logo {
+    width: 20%;
+    margin: 20px auto 20px 40%;
+  }
+}
+.logo-icon {
+  width: 20%;
+  margin-right: -10%;
+}
+.navbar {
+  border-bottom: solid 1px black;
+
+  .nav-link {
+    color: black;
+  }
+}
+
+.container00 {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  .container01 {
+    width: auto;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .amostras {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .img {
+    display: flex;
+    width: 26%;
+    height: 400px;
+    background-color: grey;
+    box-shadow: 2px 2px 2px black;
+    margin: 10px;
+    border: 5px solid black;
+
+    .img-black {
+      border: 5px solid white;
+    }
+    .img-white {
+      border: 5px solid black;
+    }
+    .img h1 {
+      margin-left: 0.7%;
+    }
+  }
+  .img-W {
+    display: flex;
+    width: 26%;
+    height: 400px;
+    background-color: grey;
+    box-shadow: 2px 2px 2px black;
+    margin: 10px;
+    border: 5px solid white;
+  }
+}
+.rodape {
+  width: auto;
+  padding: 5%;
+
+  .info {
+    gap: 100px;
+    margin-bottom: 300px;
+
+    .empresa {
+      width: 45%;
+      float: left;
+    }
+    .envio {
+      width: 45%;
+      float: right;
+    }
+  }
+  h2 {
+    font-size: 150%;
+  }
+  .redes-sociais {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 15%;
+    }
+    button {
+      margin-right: 5%;
+      width: 20%;
+      font-size: 150%;
+      color: white;
+      background-color: transparent;
+      border: 1px solid transparent;
+      border-radius: 48px;
+      padding: 12px 5px;
+      transition: 0.4s;
+    }
+    button::before {
+      content: "";
+      position: absolute;
+      height: 8.6%;
+      width: 18%;
+      z-index: -1;
+      border-radius: 48px;
+      background-color: rgba($color: #00000086, $alpha: 1);
+      transform: translate(-24px, -8px);
+      transition: 0.4s;
+    }
+    button:hover::before {
+      background-color: black alpha($color: #00000030);
+      transform: translate(-65px, -13px);
+    }
+  }
+  .contato {
+    display: flex;
+    justify-content: center;
+  }
+}
