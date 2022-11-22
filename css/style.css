@@ -45,6 +45,7 @@
 }
 .container00 .container01 {
   width: auto;
+  height: 500px;
   margin: 2%;
   display: flex;
   flex-direction: column;
@@ -54,6 +55,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.container00 .post {
+  width: auto;
 }
 .container00 .img {
   display: flex;
